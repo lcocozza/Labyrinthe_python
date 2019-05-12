@@ -2,7 +2,7 @@
 # -*-coding:Utf-8 -*
 
 from ft.init import *
-from ft.roboc import *
+from ft.game import *
 
 
 def main():
