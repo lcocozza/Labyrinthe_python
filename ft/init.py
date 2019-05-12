@@ -3,6 +3,7 @@ from classe.map import *
 
 
 def init_roboc():
+    """Initialise le jeu"""
     clear()
     map_list = print_map_list()
     map_index = get_map(len(map_list))
@@ -13,6 +14,7 @@ def init_roboc():
 
 
 def get_map(len_map_list):
+    """Demande au joueur la sur quelle map jouer"""
     good = False
     while good is False:
         try:
